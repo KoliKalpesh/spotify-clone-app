@@ -1,0 +1,51 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__left{
+    flex: 0.6;
+    min-width: 100px;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.header__left > input {
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__right > h4{
+    
+    margin-left: 10px;
+}
+
+.header__right > p{
+    color: white;
+    border-radius: 15px;
+    background-color: grey;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 10px bold ;
+    cursor: pointer;
+}
+
+.header__right > p:hover{
+    transition: 100ms transform ease-in-out;
+    transform: scale(1.04);
+}
